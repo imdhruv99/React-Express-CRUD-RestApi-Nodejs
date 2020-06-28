@@ -51,6 +51,6 @@ npm run dev
 Runs the app in the development mode, which run both backend and front server consecutively.
 
 # Author
-D H R U V &nbsp; P R A J A P A T I
+- D H R U V &nbsp; P R A J A P A T I
 
 # Thank You!
