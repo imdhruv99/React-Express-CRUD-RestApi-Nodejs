@@ -1,0 +1,22 @@
+{
+	"name": "crud-assignment",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js",
+		"client": "npm start --prefix client",
+		"server": "nodemon app.js",
+		"dev": "concurrently \"npm run server\" \"npm run client\""
+	},
+	"author": "Dhruv Prajapati",
+	"license": "ISC",
+	"dependencies": {
+		"compression": "^1.7.4",
+		"concurrently": "^4.1.0",
+		"cors": "^2.8.5",
+		"express": "^4.16.4",
+		"mongoose": "^5.4.22",
+		"why-did-you-update": "^1.0.6"
+	}
+}
